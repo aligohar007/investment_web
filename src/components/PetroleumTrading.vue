@@ -45,7 +45,7 @@
              :enter="{ opacity: 1, x: 0 }"
              :duration="1000">
           <img 
-            src="/images/petroleum-trading.jpg" 
+            src="../assets/images/deniz-demirci-lOyyTH_0Zic-unsplash.jpg" 
             alt="Petroleum Trading Operations"
             class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
           />
@@ -78,7 +78,8 @@
 
 <script setup>
 import { ref } from 'vue'
-import { useMotion } from '@vueuse/motion'
+  import { useMotion } from '@vueuse/motion'
+  useMotion()
 
 // Icons (you can use any icon library like heroicons)
 const ChartIcon = {
@@ -104,7 +105,6 @@ const features = [
     title: 'Global Network',
     description: 'Extensive network of suppliers and buyers across major petroleum markets'
   },
-  // Add more features as needed
 ]
 
 const tradingStats = [

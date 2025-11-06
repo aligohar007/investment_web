@@ -60,14 +60,14 @@
 
     <!-- Controls -->
     <button
-      class="absolute left-0 top-1/2 -translate-y-1/2 p-2 rounded-full bg-yellow-400 text-slate-900 hover:bg-yellow-500"
+      class="absolute left-0 top-1/2 -translate-y-1/2 p-2 rounded-full bg-yellow-400 text-slate-900  text-2xl font-bold  hover:bg-slate-500"
       @click="prev"
       aria-label="Previous"
     >
       ‹
     </button>
     <button
-      class="absolute right-0 top-1/2 -translate-y-1/2 p-2 rounded-full bg-yellow-400 text-slate-900 hover:bg-yellow-500"
+      class="absolute right-0 top-1/2 -translate-y-1/2 p-2 rounded-full bg-yellow-400 text-slate-900 hover:bg-slate-500 text-2xl font-bold"
       @click="next"
       aria-label="Next"
     >
